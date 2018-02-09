@@ -26,6 +26,7 @@ function forwardOneSecond() {
         m += 1;
     }
     $("#txt").text(`${h}:${convertSingleDigitsToDouble(m)}:${convertSingleDigitsToDouble(s)}`);
+    $("#second").css("transform","rotate(" + s*6 + "deg)");
 }
 
 function convertSingleDigitsToDouble(num) {

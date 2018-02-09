@@ -3,3 +3,10 @@ button {
     height: 200px;
     width: 400px;
 }
+
+#second {
+    height: 250px;
+    width: 10px;
+    background-color: black;
+    margin: 10px 400px;
+}
